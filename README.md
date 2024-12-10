@@ -10,16 +10,7 @@ The library demonstrates how linear algebra techniques, including a basic implem
 
 ---
 
-## Features
-
-- **Linear Recurrence Computations**: Fast and efficient computations using the C++20 `linrec_plus` module.
-- **Utilities**: Python utilities for preprocessing and normalization.
-- **Integration**: A high-level Python interface for seamless usage.
-- **Jupyter Demonstration**: A `demo.ipynb` notebook to illustrate practical applications.
-
----
-
-## Installation
+## Usage
 
 ### Prerequisites
 
@@ -34,8 +25,8 @@ The library demonstrates how linear algebra techniques, including a basic implem
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/linrec.git
-   cd linrec
+   git clone https://github.com/bm-coelho/alglin-trab.git
+   cd alglin-trab
    ```
 
 2. Install dependencies:
@@ -48,29 +39,9 @@ The library demonstrates how linear algebra techniques, including a basic implem
    just build
    ```
 
-4. Install the Python library:
-   ```bash
-   just install
-   ```
-
 ---
 
 ## Usage
-
-### Example: Linear Recurrence
-
-Using the core library to compute a linear recurrence:
-
-```python
-from linrec import linear_recurrence
-
-coeffs = [1, -0.5]
-initial = [1, 1]
-terms = 10
-
-result = linear_recurrence(coeffs, initial, terms)
-print("Generated Sequence:", result)
-```
 
 ### Jupyter Demonstration
 
@@ -85,37 +56,11 @@ jupyter notebook demo.ipynb
 ## Project Structure
 
 ```text
-linrec/
-├── linrec_core/        # Core Python module
+alglin-trab/
 ├── linrec_py/          # Python utilities
 ├── linrec_plus/        # C++ module (bindings and implementations)
 ├── demo.ipynb          # Jupyter notebook demonstration
-├── setup.py            # Python package setup
 ├── justfile            # Build automation script
 └── README.md           # Project documentation
 ```
-
----
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to submit issues or pull requests to improve this library.
-
----
-
-## Acknowledgments
-
-This library uses:
-- [Eigen](https://eigen.tuxfamily.org): For linear algebra in C++
-- [Pybind11](https://pybind11.readthedocs.io): For C++ and Python integration
-
----
-
-Enjoy exploring the intersection of linear algebra and recommender systems!
 
