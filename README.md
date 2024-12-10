@@ -52,10 +52,10 @@ jupyter notebook demo.ipynb
 
 ```text
 alglin-trab/
-├── linrec_py/          # Python utilities
-├── linrec_plus/        # C++ module (bindings and implementations)
+├── alglin_py/          # Python utilities
+├── alglin_plus/        # C++ module (bindings and implementations)
 ├── demo.ipynb          # Jupyter notebook demonstration
-├── justfile            # Build automation script
+├── Justfile            # Build automation script
 └── README.md           # Project documentation
 ```
 
