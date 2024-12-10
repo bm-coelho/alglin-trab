@@ -1,4 +1,4 @@
-from .hello import greet, some_function
+from .hello import greet
 from .loader import load_alglin_cpp
 
 # Load the alglin_cpp module or set to None if unavailable
