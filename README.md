@@ -1,10 +1,10 @@
-# Linear Recurrence Library (linrec)
+# Linear Algebra Project
 
 This is a simple demonstration of the applications of linear algebra in recommender systems. is a Python project showcasing how linear algebra concepts can be applied to recommender systems. This project features two MVP modules:
 
 
-- **`linrec_plus`**: A C++20 pybind11 module with some implementations.
-- **`linrec_py`**: A Python module providing some implementations and wrapping the c++ implementations.
+- **`alglin_plus`**: A C++20 pybind11 module with some implementations.
+- **`alglin_py`**: A Python module providing some implementations and wrapping the c++ implementations.
 
 The library demonstrates how linear algebra techniques, including a basic implementation of `SVD++`, can be effectively used in machine learning and recommender systems.
 
