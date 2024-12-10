@@ -29,12 +29,7 @@ The library demonstrates how linear algebra techniques, including a basic implem
    cd alglin-trab
    ```
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Build the C++ module:
+2. Build the C++ module:
    ```bash
    just build
    ```
